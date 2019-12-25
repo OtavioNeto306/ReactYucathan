@@ -1,4 +1,5 @@
 import React from 'react'
+
 import {Link} from 'react-router-dom'
 
 
@@ -34,7 +35,7 @@ const Cabecalho = props => {
             </button>
 
 
-            <Link className='navbar-brand' to='/'>logo</Link>
+            <Link className='navbar-brand' to='/'>Logo</Link>
 
           </div>
 
