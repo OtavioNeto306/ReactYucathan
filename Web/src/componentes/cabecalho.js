@@ -1,6 +1,9 @@
 import React from 'react'
-
+import Logo from './logo.svg'
+import Logocentro from './logocentro.svg'
 import {Link} from 'react-router-dom'
+
+
 
 
 
@@ -9,11 +12,12 @@ const Cabecalho = props => {
 
 
 
-    <div>]
+
+    <div>
 
 <div className='jumbotron text-center'>
-        <h1>Yucathan Tavares</h1>
-        <p>Contabilidade</p>
+<img src={Logocentro} height="180" alt="Logoempresa" />
+        
         <form>
           <div className='input-group'>
             <input type='email' className='form-control' size='50' placeholder='Email Address' required />
@@ -34,8 +38,10 @@ const Cabecalho = props => {
               <span className='icon-bar'></span>
             </button>
 
-
-            <Link className='navbar-brand' to='/'>Logo</Link>
+            <Link  className='navbar-brand' to='/'>
+            <img src={Logo} height="40" alt="Logoempresa" />
+            
+            </Link>
 
           </div>
 
@@ -43,7 +49,7 @@ const Cabecalho = props => {
             <ul className='nav navbar-nav navbar-right'>
               <li><Link to='/'>INICIO</Link></li>
               <li><Link to='Servicos'>SERVIÇOS </Link> </li>
-              <li><a href='#portfolio'>PORTFOLIO</a></li>
+              <li><Link to='Portifolio'>PORTFOLIO</Link></li>
               <li><a href='#pricing'>PRICING</a></li>
               <li><Link to='Contato'>CONTATO</Link></li>
             </ul>
@@ -52,6 +58,7 @@ const Cabecalho = props => {
 
       </nav>
     </div>
+    
   )
 }
 
