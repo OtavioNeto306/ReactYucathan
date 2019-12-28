@@ -9,7 +9,7 @@ import Contato from './componentes/contato'
 import Inicio from './componentes/Inicio'
 import Servicos from './componentes/Servicos';
 import Portifolio from './componentes/Portifolio';
-import Logo from './componentes/logo.svg'
+import MapContainer from './componentes/MapContainer';
 
 
 function App() {
@@ -25,7 +25,8 @@ function App() {
    <Route path='/servicos'component={Servicos} />
    <Route path='/portifolio' component={Portifolio} />
     <Route path='/contato' component={Contato}/>
-  
+    {/*<Route path='/mapcontainer' component={MapContainer}/>*/}
+    
     
     <Rodape/>
     

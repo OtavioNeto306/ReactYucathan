@@ -10,8 +10,8 @@ const Servicos = props => {
   <br />
   <div className='row '>
     <div className='col-sm-4'>
-      <span className='glyphicon glyphicon-off logo-small'></span>
-      <h4>CONTABIL</h4>
+      <span className='glyphicon glyphicon-pencil logo-small'></span>
+      <h4>ESCRITA FISCAL</h4>
       <p>Lorem ipsum dolor sit amet..</p>
     </div>
     <div className='col-sm-4'>

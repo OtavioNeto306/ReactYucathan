@@ -1,4 +1,5 @@
 import React from 'react'
+import Mapa from './mapa.png'
 
 
 const contato = props =>{
@@ -11,7 +12,15 @@ const contato = props =>{
       <p><span className='glyphicon glyphicon-map-marker'></span> Salvador, BA</p>
       <p><span className='glyphicon glyphicon-phone'></span> +55  (71) 3018-0424</p>
       <p><span className='glyphicon glyphicon-envelope'></span> contato@yucathantavares.com.br</p>
+      
+     <br/>
+     <br/>
+     <div className="Mapa">
+       <p>Endereço: 40301-155 - Caminho das Árvores, Salvador - BA</p>
+      <img src={Mapa}  height="350" alt="Logoempresa" />
+      </div>
     </div>
+
     <div className='col-sm-7 '>
       <div className='row'>
         <div className='col-sm-6 form-group'>
