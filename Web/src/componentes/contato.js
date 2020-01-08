@@ -1,10 +1,17 @@
 import React from 'react'
 import Mapa from './mapa.png'
+import AlertTemplate from 'react-alert-template-basic'
+import { transitions, positions, Provider as AlertProvider } from 'react-alert'
+
 
 
 const contato = props =>{
     return(
+      
+
+
 <div id='contact' className='container-fluid bg-grey'>
+  
   <h2 className='text-center'>CONTATO</h2>
   <div className='row'>
     <div className='col-sm-5'>
@@ -21,22 +28,42 @@ const contato = props =>{
       </div>
     </div>
 
+
+
+    <form id="gform" method="POST" class="pure-form pure-form-stacked" data-email="from_email@example.com"
+          action="https://script.google.com/macros/s/AKfycbw0oI_x2Tch_q3dxpkQdKnG0E_YJIgIwyzwXYoPJw/exec">
+
+
     <div className='col-sm-7 '>
       <div className='row'>
         <div className='col-sm-6 form-group'>
           <input className='form-control' id='name' name='name' placeholder='Nome' type='text' required/>
         </div>
+
         <div className='col-sm-6 form-group'>
-          <input className='form-control' id='email' name='email' placeholder='Email' type='email' required/>
+          <input className='form-control' id='email' name='email' placeholder='Email'  type='email'  required placeholder='email@examplo.com'/>
+          
         </div>
       </div>
-      <textarea className='form-control' id='comments' name='comments' placeholder='Comentario' rows='5'></textarea><br />
+      <textarea className='form-control' id='Menssagem' name='Menssagem' placeholder='Menssagem para Contato' rows='5'></textarea><br />
       <div className='row'>
+        
+      
+        
         <div className='col-sm-12 form-group'>
-          <button className='btn btn-default pull-right' type='submit'>Enviar</button>
+          <button className='btn btn-default pull-right'  type='submit'>Enviar</button>
+        
         </div>
+
       </div>
     </div>
+    </form>
+  
+
+    
+    <script data-cfasync="false" type="text/javascript"
+            src="https://cdn.rawgit.com/dwyl/learn-to-send-email-via-google-script-html-no-server/master/form-submission-handler.js"></script>
+
   </div>
 </div>
     )
