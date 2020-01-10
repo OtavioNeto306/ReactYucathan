@@ -50,8 +50,9 @@ const Cabecalho = props => {
               <li><Link to='/'>INICIO</Link></li>
               <li><Link to='Servicos'>SERVIÇOS </Link> </li>
               <li><Link to='Portifolio'>PORTFOLIO</Link></li>
-              <li><a href='#pricing'>PRICING</a></li>
+              <li><Link to='Eventos'>EVENTOS</Link></li>
               <li><Link to='Contato'>CONTATO</Link></li>
+              
             </ul>
           </div>
         </div>

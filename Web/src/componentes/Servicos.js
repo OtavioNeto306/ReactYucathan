@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Contabil from '../componentes/img/contabilidade_sobre.png'
 
 const Servicos = props => {
     return (
@@ -15,7 +15,7 @@ const Servicos = props => {
       <p>O setor de regularização fiscal é responsável por realizar o seu planejamento tributário, afim de manter sua empresa quite com suas obrigações legais e fiscais..</p>
     </div>
     <div className='col-sm-4'>
-      <span className='glyphicon glyphicon-heart logo-small'></span>
+    <span className= 'LogoContabil'  ><img src={Contabil} height="40" alt="contabil" /> </span> 
       <h4>CONTABIL</h4>
       <p>A proposta do nosso setor contábil é promover a gestão e manutenção de documentação necessária, assim como a geração de relatórios, para que nossos clientes estejam sempre em dia com sua contabilidade.</p>
     </div>
@@ -30,7 +30,7 @@ const Servicos = props => {
     <div className='col-sm-4'>
       <span className='glyphicon glyphicon-leaf logo-small'></span>
       <h4>PROCURADORIA</h4>
-      <p>O grupo Focos conta com uma equipe de profissionais que auxiliará em todos os quesitos e processos para você abrir ou fechar sua empresa com tranquilidade e muita eficiência.</p>
+      <p>A Yucathan Tavares conta com uma equipe de profissionais que auxiliará em todos os quesitos e processos para você abrir ou fechar sua empresa com tranquilidade e muita eficiência.</p>
     </div>
     <div className='col-sm-4'>
       <span className='glyphicon glyphicon-certificate logo-small'></span>
