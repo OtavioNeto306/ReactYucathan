@@ -10,6 +10,7 @@ import Inicio from './componentes/Inicio'
 import Servicos from './componentes/Servicos';
 import Portifolio from './componentes/Portifolio';
 import Eventos from './componentes/eventos';
+import Admin from './admin/admmin';
 
 
 function App() {
@@ -26,8 +27,9 @@ function App() {
    <Route path='/portifolio' component={Portifolio} />
     <Route path='/contato' component={Contato}/>
     <Route path='/eventos' component={Eventos} />
-    {/*<Route path='/mapcontainer' component={MapContainer}/>*/}
-    
+
+  
+    <Route path='/admin' component={Admin} />
     
     <Rodape/>
     

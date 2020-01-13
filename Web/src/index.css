@@ -16,13 +16,18 @@ h4 {
   color: #303030;
   font-weight: 400;
   margin-bottom: 30px;
-}  
+} 
+
 .jumbotron {
   background-color: rgb(245, 242, 242);
   color: #fff;
-  padding: 100px 25px;
+  padding: 50px 25px;
   font-family: Montserrat, sans-serif;
+ 
+  
 }
+
+
 .container-fluid {
   padding: 60px 50px;
 }
