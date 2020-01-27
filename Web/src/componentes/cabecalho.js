@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from './logo.svg'
 import Logocentro from './logocentro.svg'
+import FundoImg from './img/fundo.jpg'
 
 
 import {Link} from 'react-router-dom'
@@ -12,14 +13,30 @@ import {Link} from 'react-router-dom'
 const Cabecalho = props => {
   return (
 
+
+
+
     <div>
 
-<div className='jumbotron text-center'  >
-  
-<img src={Logocentro} height="180" alt="Logoempresa" />
-   
 
+<div className='bgimg-1 w3-display-container w3-opacity-min' id='home'>
+      <div className='w3-display-middle' >
+        
+      <span className='logoFundo' className="w3-center w3-padding-large  w3-xlarge w3-wide w3-animate-opacity"><img src={Logocentro} height="180" alt="Logoempresa" /></span>
       </div>
+      <br/>
+     
+      <h2 className="ls-l"  data-ls="delayin:0;offsetxin:1000;offsetxout:1000;" >
+                Nós contabilizamos<br/>a vida financeira<br/>do seu negócio!
+            </h2>
+    </div>
+    <div className="panel panel-primary"></div>   
+
+    
+
+
+
+
      
 
       <nav className='navbar navbar-default navbar-fixed-top'>

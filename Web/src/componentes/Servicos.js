@@ -8,51 +8,73 @@ import Honorarios from '../componentes/img/Honorarios.ico'
 
 
 const Servicos = props => {
-    return (
-        
-<div id='services' className='container-fluid text-center'>
-  <h2>SOLUÇÕES</h2>
-  <h4>O que nós oferecemos</h4>
-  <br />
-  <div className='row '>
-    <div className='col-sm-4'>
-    <span className= 'LogoEscrita'  ><img src={Escrita} height="40" alt="escrita" /> </span> 
-      <h4>REGULARIZAÇÃO FISCAL</h4>
-      <p>O setor de regularização fiscal é responsável por realizar o seu planejamento tributário, afim de manter sua empresa quite com suas obrigações legais e fiscais..</p>
+  return (
+
+    <div>
+    
+    <div id='services' className='container-fluid text-center'>
+      <h2>Serviços Contábeis</h2>
+      <br />
+      <div className='row '>
+        <div className='col-sm-4'>
+
+          <span className='glyphicon glyphicon-ok' > </span>
+
+          <h4>Abertura de Empresas</h4>
+          <p>Realizamos todo o processo de abertura ou encerramento de empresas de modo rápido e sem burocracias para você...</p>
+        </div>
+        <div className='col-sm-4'>
+          <span className='glyphicon glyphicon-ok' > </span>
+          <h4>Contabilidade Completa</h4>
+          <p>Realizamos todos os serviços pertinentes da área contábil, garantindo todas as obrigações perante o governo..</p>
+        </div>
+        <div className='col-sm-4'>
+        <span className='glyphicon glyphicon-ok' > </span>
+          <h4>Serviços Fiscais</h4>
+          <p>Dispomos de uma equipe pronta para lhe atender em todas as questões fiscais da sua empresa, garantindo assertividade e organização..</p>
+        </div>
+      </div>
+      <br /><br />
+      <div className='row '>
+        <div className='col-sm-4'>
+        <span className='glyphicon glyphicon-ok' > </span>
+          <h4>Imposto de Renda</h4>
+          <p>Realizamos todo o processo de declaração de imposto de renda da sua empresa e também de pessoas físicas.</p>
+        </div>
+        <div className='col-sm-4'>
+        <span className='glyphicon glyphicon-ok' > </span>
+          <h4>Assessoria Empresarial</h4>
+          <p>Dispomos de profissionais prontos e preparados para assessorar você e sua empresa em todos os meios empresariais.</p>
+        </div>
+        <div className='col-sm-4'>
+        <span className='glyphicon glyphicon-ok' > </span>
+          <h4>Conheça mais serviços</h4>
+          <p>Precisa de outros serviços não encontrados aqui? Entre em contato conosco que com certeza poderemos te ajudar..</p>
+        <div>
+          
+        </div>
+        </div>
+      </div>
     </div>
-    <div className='col-sm-4'>
-    <span className= 'LogoContabil'  ><img src={Contabil} height="40" alt="contabil" /> </span> 
-      <h4>CONTABIL</h4>
-      <p>A proposta do nosso setor contábil é promover a gestão e manutenção de documentação necessária, assim como a geração de relatórios, para que nossos clientes estejam sempre em dia com sua contabilidade.</p>
-    </div>
-    <div className='col-sm-4'>
-    <span className= 'LogoFolha'  ><img src={Folha} height="40" alt="folha" /> </span> 
-      <h4>RECURSOS HUMANOS</h4>
-      <p>Responsável pelo setor de contratação e rescisão de funcionários, folha de pagamento e obrigações trabalhistas da sua empresa.</p>
-    </div>
-  </div>
-  <br /><br />
-  <div className='row '>
-    <div className='col-sm-4'>
-    <span className= 'LogoContabil'  ><img src={Adm} height="40" alt="contabil" /> </span> 
-      <h4>PROCURADORIA</h4>
-      <p>A Yucathan Tavares conta com uma equipe de profissionais que auxiliará em todos os quesitos e processos para você abrir ou fechar sua empresa com tranquilidade e muita eficiência.</p>
-    </div>
-    <div className='col-sm-4'>
-    <span className= 'LogoContabil'  ><img src={Honorarios} height="40" alt="contabil" /> </span> 
-      <h4>CERTIFIED</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-    <div className='col-sm-4'>
-      <span className='glyphicon glyphicon-wrench logo-small'></span>
-      <h4>color:#303030;'>HARD WORK</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+
+    <div className="panel panel-primary"></div>   
+
+<div className="row">
+  <div className="col-sm-6 col-md-4">
+    <div className="thumbnail">
+      <img src='#' alt="..."/>
+      <div className="caption">
+        <h3>Abra sua empresa agora!</h3>
+        <p>...</p>
+        <p><a href="#" className="btn btn-primary" role="button">Button</a> <a href="#" className="btn btn-default" role="button">Button</a></p>
+      </div>
     </div>
   </div>
 </div>
 
 
-    )
+    </div>
+  )
 }
 
 export default Servicos

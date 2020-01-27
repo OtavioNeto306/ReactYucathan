@@ -1,5 +1,4 @@
 import React from 'react'
-import Mapa from './mapa.png'
 
 import AlertTemplate from 'react-alert-template-basic'
 import { transitions, positions, Provider as AlertProvider } from 'react-alert'
@@ -7,10 +6,10 @@ import { transitions, positions, Provider as AlertProvider } from 'react-alert'
 
 
 const contato = props =>{
-    return(
+    return( <h1></h1>
       
 
-
+/*
 <div id='contact' className='container-fluid bg-grey'>
   
   <h2 className='text-center'>CONTATO</h2>
@@ -67,7 +66,10 @@ const contato = props =>{
 
   </div>
 </div>
+*/
     )
+    
 }
+
 
 export default contato

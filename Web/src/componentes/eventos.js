@@ -6,7 +6,7 @@ const Eventos = props =>{
         <div id='pricing' className='container-fluid'>
   <div className='text-center'>
     <h2>Eventos</h2>
-    <h4>Preve Resumo..</h4>
+    <h4>Breve Resumo..</h4>
   </div>
   <div className='row '>
     <div className='col-sm-4 col-xs-12'>
